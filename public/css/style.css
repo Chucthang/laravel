@@ -1,0 +1,295 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 100%;
+    font-size: 12px;
+
+}
+a{
+    text-decoration: none;
+}
+.myactive
+{
+    background: black !important;
+    color: white !important;
+}
+.notdata
+{
+    display: none;
+    text-align: center;
+    padding: 80px;
+}
+.notdata h2
+{
+
+}
+.td-loading
+{
+
+}
+.backindex
+{
+    margin-left: 15px;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+.wait_paginate
+{
+width: 100%;
+text-align: center;
+display: none;
+}
+.wait_paginate img
+{
+    
+}
+.mytable .wait-data
+{
+    /* display: ; */
+}
+.search_core
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-bottom: 10px;
+}
+.search_core .core
+{
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.search_core input
+{
+    padding: 4px 9px;
+    border-radius: 10px;
+    width: 250px;
+}
+.overplay
+{
+
+position: fixed;
+display: none;
+top: 0;
+
+left: 0;
+
+right: 0;
+
+bottom: 0;
+
+width: 100%;
+
+background: #353535;
+
+z-index: 1000;
+
+opacity: 0.5;
+}
+.waitUpdate
+{
+    display: none;
+    position: fixed;
+    z-index: 1300;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #1d1d1d;
+    opacity: 0.5;
+}
+.waitUpdate img
+{
+    
+position: fixed;
+    
+z-index: 1300;
+    
+width: 126px;
+    
+left: 0;
+    
+right: 0;
+    
+bottom: 0;
+    
+top: 0;
+    
+margin: auto;
+}
+.wrap_update
+{
+    display: none;
+    font-weight: bold;
+    width: 350px;
+    height: 360px;
+    position: fixed;
+    z-index: 1200;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-radius: 10px;
+    bottom: 0;
+    margin: auto;
+    background: white;
+}
+.form-update
+{
+
+z-index: 1000;
+
+padding: 10px 15px;
+
+border-radius: 10px;
+}
+.qr_email_update , .qr_hoten_update  ,.qr_sdt_update  ,.qr_diachi_update
+{
+    
+width: 80%;
+    
+padding: 5px;
+}
+/*----------------------------------------------*/
+.insertRows
+{
+    border:2px solid rgb(24, 214, 24);
+}
+.mypagination
+{
+    padding-top: 24px !important;
+}
+.mycontainer
+{
+    
+padding-top: 90px;
+}
+.myrow
+{
+
+}
+
+.myrow 
+{
+    
+}
+.fr-input
+{width: 100%;padding-top: 30px;overflow: auto;}
+.mt-col-3 .frame-insert
+{
+    
+background: #336dab;
+    
+border-radius: 10px;
+    
+position: relative;
+    
+color: white;
+    
+overflow: auto;
+    
+padding-left: 10px;
+    
+padding-right: 10px;
+    
+font-size: 16px;
+    
+-webkit-box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.14);
+    
+-moz-box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.14);
+    
+box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.14);
+    
+padding-bottom: 10px;
+}
+
+
+.ht, .email , .sdt,.diachi
+{float: right;border-radius: 10px;padding-left: 5px;}
+.ht
+{
+
+}
+.sdt{}
+.email
+{}
+.them
+{
+
+border-radius: 10px;
+
+padding: 5px 40px 5px 40px;
+
+font-weight: bold;
+
+float: right;
+
+margin-top: 30px;
+}
+
+
+.mt-col-9 .frame-list
+{
+    
+border-radius: 10px;
+}
+.frame-list 
+{
+
+}
+.mytable
+{
+
+-webkit-box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.14);
+
+-moz-box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.14);
+
+box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.14);
+
+border-radius: 10px !important;
+}
+.mytable tr
+{
+}
+.mytable tr th
+{
+    
+background: #336dab;
+    
+color: white;
+    
+text-align: center;
+}
+.mytable tr td
+{
+    
+text-align: center;
+}
+.btnAc
+{
+    
+padding: 5px;
+    
+border-radius: 8px;
+    
+background: #d4d4d4;
+    
+font-weight: bold;
+}
+/*--------------------TABLE--------------------*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
